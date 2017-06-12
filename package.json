@@ -1,0 +1,38 @@
+{
+  "name": "webrtc-chat-prototype",
+  "version": "1.0.0",
+  "description": "Playing around with WebRTC.",
+  "main": "main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test-chat": "./node_modules/mocha/bin/mocha test/chat.spec.js",
+    "test-video": "./node_modules/mocha/bin/mocha test/video.spec.js",
+    "test": "./node_modules/mocha/bin/mocha test/*.spec.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacobwsmith/webrtc-chat-prototype.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacobwsmith/webrtc-chat-prototype/issues"
+  },
+  "homepage": "https://github.com/jacobwsmith/webrtc-chat-prototype#readme",
+  "dependencies": {
+    "chai": "^4.0.2",
+    "cold-brew": "^1.0.36",
+    "express": "^4.15.3",
+    "jquery": "^3.2.1",
+    "mocha": "^3.4.2",
+    "selenium-webdriver": "^3.4.0",
+    "socket.io": "^2.0.2",
+    "socket.io-client": "^2.0.2",
+    "supertest": "^3.0.0",
+    "webrtc-adapter": "^4.0.1"
+  }
+}
